@@ -9,7 +9,7 @@
 
 main:
   - title: "CV"
-    url: /files/CV_Lydia_Camp__June_2025_.pdf
+    url: /files/CV_Lydia.pdf
 
   - title: "Research"
     url: /publications/
@@ -17,8 +17,8 @@ main:
   - title: "Blog Posts"
     url: /year-archive/
 
-  - title: "Talks"
-    url: /talks/    
+ # - title: "Talks"
+ #   url: /talks/    
 
  # - title: "Teaching"
  #   url: /teaching/    
