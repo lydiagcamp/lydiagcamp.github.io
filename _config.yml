@@ -11,15 +11,10 @@ locale                   : "en-US"
 site_theme               : "default"
 title                    : "Lydia Camp"
 title_separator          : "-"
-name                     : &name "Lydia Camp"
-<<<<<<< HEAD
-description              : &description "personal description"
-url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
-=======
-description              : &description "Social Sciences MA Candidate Juan March Institute Universidad Carlos III de Madrid Fulbright Scholar"
-url                      : https://lydiagcamp.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
->>>>>>> eb81e7f76ca1db4c5b5271e5ab29b779a9d44cd7
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
+name                     : "Lydia Camp"
+description              : "personal description"
+url                      : "https://lydiagcamp.github.io" # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
+baseurl                  : "" # the subpath of your site, e.g. "/blog" if your site is at "https://[your GitHub username].github.io/blog" or "" if you are using a custom domain or the root of a GitHub Pages site
 repository               : "lydiagcamp/lydiagcamp.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
