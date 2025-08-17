@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Hello
+Hello!
 
 I am a Fulbright Scholar and MA Candidate at the [Juan March Institute of Social Sciences](https://ic3jm.es) (IC3JM) at [Carlos III Unversity of Madrid](https://www.uc3m.es/Home). I received a BBA in International Business with an emphasis in Economics.
 
