@@ -5,10 +5,13 @@ permalink: /publications/
 author_profile: true
 ---
 
+{% capture papers %}
 ## Working Papers
 
 - *The Embedded Economy of Woolf: In Search of the Imaginative Life*
 - *Stability Pays Dividends: Financial Market Exposure & Political Risk*
+{% endcapture %}
+{{ papers | markdownify }}
 
 {% if site.author.googlescholar %}
   <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
