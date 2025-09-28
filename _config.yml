@@ -24,6 +24,7 @@ repository               : "lydiagcamp/lydiagcamp.github.io"
 params:
   custom_css:
     - "css/custom.css"
+
 author:
   # Biographic information
   avatar           : "profilezoom.jpeg"
