@@ -12,7 +12,7 @@ main:
     url: /about.html
 
   - title: "CV"
-    url: /files/oct cv.pdf
+    url: /files/websiteCV.pdf
 
   - title: "Research"
     url: /publications/
