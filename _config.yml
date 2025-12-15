@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "slate"
+site_theme               : "default"
 title                    : "Lydia Camp"
 title_separator          : "-"
 name                     : &name "Lydia Camp"
