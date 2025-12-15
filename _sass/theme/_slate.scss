@@ -7,7 +7,9 @@
 $slate                       : #6f7a83;
 $deep-slate                  : mix(#000, $slate, 45%);
 $charcoal                    : mix(#000, $slate, 65%);
-$soft-slate                  : #9aa3aa;\$mist-slate                  : mix(#fff, $slate, 92%);
+$soft-slate : #9aa3aa;
+$mist-slate : mix(#fff, $slate, 92%);
+                 
 
 /* Accent palette */
 $accent-primary              : #3a8fb7;   /* muted blue */
