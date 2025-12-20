@@ -1,0 +1,23 @@
+name: Deploy Website
+
+on:
+  push:
+    branches:
+      - master   # or 'main' if your main branch is called 'main'
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          submodules: false   # avoids the old submodule error
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v6
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./   # points to root folder; change if your site is in /docs
+
