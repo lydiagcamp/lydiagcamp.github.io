@@ -1,7 +1,7 @@
 ---
 layout: archive
 permalink: /year-archive/
-title: "Blog Posts"
+title: "Writing"
 author_profile: true
 redirect_from:
   - /wordpress/blog-posts/
@@ -9,48 +9,65 @@ redirect_from:
 
 {% include base_path %}
 
-<div class="page__hero--overlay" style="padding: 2rem 0 1rem;">
-  <div class="wrapper">
-    <h1 class="page__title" style="margin-bottom: 0.5rem;">Blog Posts</h1>
-    <p style="font-size: 1.1rem; max-width: 720px; opacity: 0.85;">
-      Thoughts, conference notes, reflections, and things worth sharing.
-    </p>
-  </div>
-</div>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
 
-<div class="archive" style="margin-top: 2rem;">
+<style>
+  .blog-archive { font-family: 'DM Sans', sans-serif; max-width: 780px; }
+
+  .blog-hero { padding: 3rem 0 2.5rem; border-bottom: 1px solid #e8e8e8; margin-bottom: 3rem; }
+  .blog-hero-label { font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: #aaa; margin-bottom: 0.75rem; }
+  .blog-hero h1 { font-family: 'Lora', serif; font-size: 2.8rem; font-weight: 400; color: #1a1a1a; margin: 0 0 0.75rem; line-height: 1.2; }
+  .blog-hero p { font-size: 1rem; color: #666; margin: 0; line-height: 1.6; max-width: 520px; }
+
+  .year-section { margin-bottom: 3.5rem; }
+  .year-header { display: flex; align-items: baseline; justify-content: space-between; margin-bottom: 1.5rem; padding-bottom: 0.75rem; border-bottom: 1px solid #e8e8e8; }
+  .year-label { font-family: 'Lora', serif; font-size: 1.5rem; font-weight: 400; color: #1a1a1a; }
+  .year-count { font-size: 0.8rem; color: #bbb; letter-spacing: 0.05em; }
+
+  .post-item { display: grid; grid-template-columns: 72px 1fr; gap: 0 1.5rem; padding: 1.25rem 0; border-bottom: 1px solid #f0f0f0; }
+  .post-item:first-child { border-top: 1px solid #f0f0f0; }
+  .post-date-col { display: flex; flex-direction: column; align-items: flex-end; padding-top: 2px; }
+  .post-day { font-size: 1.4rem; font-weight: 300; color: #ccc; line-height: 1; }
+  .post-mon { font-size: 0.7rem; letter-spacing: 0.08em; text-transform: uppercase; color: #ccc; margin-top: 2px; }
+  .post-title { font-family: 'Lora', serif; font-size: 1.05rem; font-weight: 400; color: #1a1a1a; margin: 0 0 0.4rem; line-height: 1.45; }
+  .post-title a { color: inherit; text-decoration: none; }
+  .post-title a:hover { text-decoration: underline; text-underline-offset: 3px; }
+  .post-excerpt { font-size: 0.875rem; color: #777; margin: 0; line-height: 1.6; }
+</style>
+
+<div class="blog-archive">
+  <div class="blog-hero">
+    <div class="blog-hero-label">Writing</div>
+    <h1>Writing</h1>
+    <p>Thoughts, conference notes, reflections, and things worth sharing.</p>
+  </div>
+
   {% assign posts_by_year = site.posts | group_by_exp: "post", "post.date | date: '%Y'" %}
 
   {% for year in posts_by_year %}
-    <section class="archive__year-group" style="margin-bottom: 3rem;">
-      <div style="display: flex; align-items: center; justify-content: space-between; gap: 1rem; border-bottom: 2px solid #eee; padding-bottom: 0.5rem; margin-bottom: 1.5rem;">
-        <h2 id="{{ year.name | slugify }}" class="archive__subtitle" style="margin: 0;">
-          {{ year.name }}
-        </h2>
-        <span style="font-size: 0.95rem; color: #777;">
-          {{ year.items | size }} post{% if year.items | size != 1 %}s{% endif %}
-        </span>
+    <section class="year-section">
+      <div class="year-header">
+        <span class="year-label" id="{{ year.name | slugify }}">{{ year.name }}</span>
+        <span class="year-count">{{ year.items.size }} post{% if year.items.size != 1 %}s{% endif %}</span>
       </div>
 
-      <div class="entries-list">
-        {% for post in year.items %}
-          <article class="archive__item" style="padding: 1rem 1.25rem; margin-bottom: 1rem; border: 1px solid #eee; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.04);">
-            <h3 class="archive__item-title" style="margin-bottom: 0.35rem;">
+      {% for post in year.items %}
+        <div class="post-item">
+          <div class="post-date-col">
+            <span class="post-day">{{ post.date | date: "%-d" }}</span>
+            <span class="post-mon">{{ post.date | date: "%b" }}</span>
+          </div>
+          <div>
+            <h3 class="post-title">
               <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ post.title }}</a>
             </h3>
-
-            <p style="font-size: 0.9rem; color: #777; margin-bottom: 0.75rem;">
-              {{ post.date | date: "%B %-d, %Y" }}
-            </p>
-
             {% if post.excerpt %}
-              <p style="margin: 0; line-height: 1.6;">
-                {{ post.excerpt | strip_html | truncate: 180 }}
-              </p>
+              <p class="post-excerpt">{{ post.excerpt | strip_html | truncate: 180 }}</p>
             {% endif %}
-          </article>
-        {% endfor %}
-      </div>
+          </div>
+        </div>
+      {% endfor %}
     </section>
   {% endfor %}
 </div>
