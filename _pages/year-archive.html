@@ -8,12 +8,49 @@ redirect_from:
 ---
 
 {% include base_path %}
-{% capture written_year %}'None'{% endcapture %}
-{% for post in site.posts %}
-  {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
-  {% if year != written_year %}
-    <h2 id="{{ year | slugify }}" class="archive__subtitle">{{ year }}</h2>
-    {% capture written_year %}{{ year }}{% endcapture %}
-  {% endif %}
-  {% include archive-single.html %}
-{% endfor %}
+
+<div class="page__hero--overlay" style="padding: 2rem 0 1rem;">
+  <div class="wrapper">
+    <h1 class="page__title" style="margin-bottom: 0.5rem;">Blog Posts</h1>
+    <p style="font-size: 1.1rem; max-width: 720px; opacity: 0.85;">
+      Thoughts, conference notes, reflections, and things worth sharing.
+    </p>
+  </div>
+</div>
+
+<div class="archive" style="margin-top: 2rem;">
+  {% assign posts_by_year = site.posts | group_by_exp: "post", "post.date | date: '%Y'" %}
+
+  {% for year in posts_by_year %}
+    <section class="archive__year-group" style="margin-bottom: 3rem;">
+      <div style="display: flex; align-items: center; justify-content: space-between; gap: 1rem; border-bottom: 2px solid #eee; padding-bottom: 0.5rem; margin-bottom: 1.5rem;">
+        <h2 id="{{ year.name | slugify }}" class="archive__subtitle" style="margin: 0;">
+          {{ year.name }}
+        </h2>
+        <span style="font-size: 0.95rem; color: #777;">
+          {{ year.items | size }} post{% if year.items | size != 1 %}s{% endif %}
+        </span>
+      </div>
+
+      <div class="entries-list">
+        {% for post in year.items %}
+          <article class="archive__item" style="padding: 1rem 1.25rem; margin-bottom: 1rem; border: 1px solid #eee; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.04);">
+            <h3 class="archive__item-title" style="margin-bottom: 0.35rem;">
+              <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ post.title }}</a>
+            </h3>
+
+            <p style="font-size: 0.9rem; color: #777; margin-bottom: 0.75rem;">
+              {{ post.date | date: "%B %-d, %Y" }}
+            </p>
+
+            {% if post.excerpt %}
+              <p style="margin: 0; line-height: 1.6;">
+                {{ post.excerpt | strip_html | truncate: 180 }}
+              </p>
+            {% endif %}
+          </article>
+        {% endfor %}
+      </div>
+    </section>
+  {% endfor %}
+</div>
