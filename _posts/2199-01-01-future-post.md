@@ -8,7 +8,7 @@ tags:
 
 > *“No amount of sophistication is going to allay the fact that all of your knowledge is about the past and all your decisions are about the future.”*  
 >  
-> — Ian E. Wilson, former executive at GE
+> — Ian E. Wilson, former executive at General Electric
 
 Uncertainty, flexibility, diversification, adaptability, range. These are the words repeated in each panel, in each speech, and in each conversation I observed at the ninth edition of the annual [EU-US Young Leaders Seminar](https://www.fulbrightschuman.eu/young-leaders-seminar/). Hosted in Brussels, the seminar invited 25 U.S. Fulbright grantees representing EU countries and 25 Erasmus+ European students, with the majority being future policymakers, lawyers, educators, doctors, and entrepreneurs. This year’s edition focused on “The Future of Skills and Leadership,” a deliberately broad theme reflecting the increasing complexity of the global landscape.
 
