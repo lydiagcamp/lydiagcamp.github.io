@@ -1,7 +1,7 @@
 ---
 title: 'Building Social Theory for a Rapidly Changing World'
 date: 2026-04-05
-excerpt: "Thoughts on the 2026 EU-US Young Leaders Seminar"
+excerpt: "Some thoughts on the 2026 EU-US Young Leaders Seminar"
 permalink: /posts/2012/08/blog-post-4/
 tags:
   - conferences
