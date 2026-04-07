@@ -36,6 +36,8 @@ Finally, and perhaps most importantly, we should all understand and stand up for
 
 ---
 
+*Following Chatham House rules, I do not reveal the identity of any speakers or participants.*
+
 ## Notes
 
 [^1]: Jared P. Scott, dir., *The Age of Consequences* (United States: PF Pictures, 2016).
