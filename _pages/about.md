@@ -70,7 +70,6 @@ redirect_from:
 
   .home-item {
     padding: 1rem 0;
-    border-top: 1px solid #f0f0f0;
   }
 
   .home-item:last-child {
@@ -95,22 +94,20 @@ redirect_from:
 
 <div class="home-archive">
   <div class="home-hero">
-    <h1>Welcome</h1>
+    <h1>About</h1>
   </div>
 
+  <div class="home-item">
+    <p class="home-text">
+      I am a Fulbright Scholar and MA Candidate at the <a href="https://ijlinz.es">Juan Linz Institute</a> (IJL) at <a href="https://www.uc3m.es/Home">Carlos III University of Madrid</a> (UC3M), and an incoming PhD student in Sociology at <a href="https://as.nyu.edu/departments/sociology.html">New York University</a>. I received a BBA in International Business.
+    </p>
 
-    <div class="home-item">
-      <p class="home-text">
-        I am a Fulbright Scholar and MA Candidate at the <a href="https://ijlinz.es">Juan Linz Institute</a> (IJL) at <a href="https://www.uc3m.es/Home">Carlos III University of Madrid</a> (UC3M), and an incoming PhD student in Sociology at <a href="https://as.nyu.edu/departments/sociology.html">New York University</a>. I received a BBA in International Business.
-      </p>
+    <p class="home-text">
+      As an economic sociologist, I am primarily interested in the sociology of labor and financial markets in postindustrial economies. My research follows two interconnected lines of inquiry. The first examines the financialization of the middle class, analyzing the social consequences of engagement with financial instruments ranging from stocks to employee ownership schemes. The second investigates occupational communities, emphasizing the role of social networks in producing stratification and labor market precarity.
+    </p>
 
-      <p class="home-text">
-        As an economic sociologist, I am primarily interested in the sociology of labor and financial markets in postindustrial economies. My research follows two interconnected lines of inquiry. The first examines the financialization of the middle class, analyzing the social consequences of engagement with financial instruments ranging from stocks to employee ownership schemes. The second investigates occupational communities, emphasizing the role of social networks in producing stratification and labor market precarity.
-      </p>
-
-      <p class="home-text">
-        You can download my full CV <a href="/files/websiteCV.pdf">here</a>.
-      </p>
-    </div>
-  </section>
+    <p class="home-text">
+      You can download my full CV <a href="/files/websiteCV.pdf">here</a>.
+    </p>
+  </div>
 </div>
