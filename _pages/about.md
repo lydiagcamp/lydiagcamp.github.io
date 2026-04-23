@@ -68,7 +68,7 @@ redirect_from:
   </div>
 
   <div class="about-content">
-    <p>I am a Fulbright Scholar and Master's student at the <a href="https://ic3jm.es">Juan March Institute of Social Sciences</a> (IC3JM) at <a href="https://www.uc3m.es/Home">Carlos III University of Madrid</a> (UC3M). I received a BBA in International Business with an emphasis in Economics.</p>
+    <p>I am a Fulbright Scholar and MA Candidate at the <a href="https://ijlinz.es">Juan Linz Institute</a> at <a href="https://www.uc3m.es/Home">Carlos III University of Madrid</a> (UC3M), and an incoming PhD student in Sociology at <a href="https://as.nyu.edu/departments/sociology.html">New York University</a>. I received a BBA in International Business.</p>
 
     <p>As an economic sociologist, I am primarily interested in the sociology of labor and financial markets in postindustrial economies. My research follows two interconnected lines of inquiry. The first examines the financialization of the middle class, analyzing the social consequences of engagement with financial instruments—ranging from stock market participation to employee ownership schemes. The second investigates occupational communities, emphasizing the role of social networks in producing labor market stratification. You can download my full <a href="files/websiteCV.pdf">CV</a> here.</p>
   </div>
