@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Welcome!"
+title: "About"
 permalink: /
 author_profile: true
 redirect_from: 
@@ -98,10 +98,6 @@ redirect_from:
     <h1>Welcome</h1>
   </div>
 
-  <section class="home-section">
-    <div class="home-section-header">
-      <span class="home-section-label">About</span>
-    </div>
 
     <div class="home-item">
       <p class="home-text">
