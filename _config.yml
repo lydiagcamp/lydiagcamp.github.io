@@ -30,10 +30,10 @@ author:
   # Biographic information
   avatar           : "profilezoom.jpeg"
   name             : "Lydia Camp"
-  pronouns         : # example: "she/her"  
+  pronouns         : she/her  
   bio              : "Social Sciences Master's Student | Fulbright Scholar"
   location         : Madrid, Spain
-  employer         : IC3JM
+  employer         : IJL / UC3M
   uri              : # URL
   email            : "lydia.cp02@gmail.com" 
 
