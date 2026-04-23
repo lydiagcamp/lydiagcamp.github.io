@@ -109,7 +109,7 @@ redirect_from:
       </p>
 
       <p class="home-text">
-        You can download my full <a href="/files/websiteCV.pdf">CV here</a>.
+        You can download my full CV <a href="/files/websiteCV.pdf">here</a>.
       </p>
     </div>
   </section>
