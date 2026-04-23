@@ -47,27 +47,6 @@ redirect_from:
     line-height: 1.15;
   }
 
-  .home-section {
-    margin: 0 0 1.8rem 0 !important;
-  }
-
-  .home-section-header {
-    display: flex;
-    align-items: baseline;
-    justify-content: space-between;
-    margin: 0.5rem 0 0.6rem 0 !important;
-    padding: 0 !important;
-  }
-
-  .home-section-label {
-    font-family: 'Lora', serif;
-    font-size: 1.45rem;
-    font-weight: 400;
-    color: #1a1a1a;
-    margin: 0;
-    line-height: 1.2;
-  }
-
   .home-item {
     padding: 1rem 0;
   }
@@ -79,7 +58,7 @@ redirect_from:
   .home-text {
     font-size: 0.95rem;
     color: #555;
-    margin: 0.35rem 0 !important;
+    margin: 1rem 0 !important;
     line-height: 1.75;
   }
 
