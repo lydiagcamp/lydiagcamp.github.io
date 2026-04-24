@@ -82,7 +82,7 @@ redirect_from:
     </p>
 
     <p class="home-text">
-      As an economic sociologist, I am primarily interested in the sociology of labor and financial markets in postindustrial economies. My research follows two interconnected lines of inquiry. The first examines the financialization of the middle class, analyzing the social consequences of engagement with financial instruments ranging from stocks to employee ownership schemes. The second investigates occupational communities, emphasizing the role of social networks in producing stratification and labor market precarity.
+      As an economic sociologist, I primarily study financial and labor markets in postindustrial economies. My work explores how expanding access to credit reshapes social and political life, from stock market participation to employee ownership schemes. I’m particularly interested in understanding how financial markets influences people’s sense of uncertainty and their stake—or “buy-in”—in the economy.
     </p>
 
     <p class="home-text">
