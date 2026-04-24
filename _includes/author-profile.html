@@ -20,8 +20,13 @@
     {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}
   </div>
 
+  <div class="author__interests">
+    <span class="author__interest-tag">economic sociology</span>
+    <span class="author__interest-tag">financialization</span>
+    <span class="author__interest-tag">uncertainty</span>
+  </div>
+
   <div class="author__urls-wrapper">
-    <button class="btn btn--inverse">Follow</button>
     <ul class="author__urls social-icons">
       <!-- Font Awesome icons / Biographic information  -->
       {% if author.location %}

@@ -1,3 +1,20 @@
 .theme-toggle {
     display: none !important;
   }
+
+.author__interests {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin: 0.6rem 0 1rem 0;
+}
+
+.author__interest-tag {
+  font-size: 0.72rem;
+  font-family: 'DM Sans', sans-serif;
+  color: #3a7ea8;
+  background-color: #e6f2f9;
+  border: 1px solid #b8d9ed;
+  border-radius: 20px;
+  padding: 0.2rem 0.65rem;
+}
