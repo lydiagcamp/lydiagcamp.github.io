@@ -110,6 +110,37 @@ author_profile: true
     font-weight: 500;
   }
 
+  .research-tags {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 0.6rem;
+    flex-wrap: wrap;
+  }
+
+  .research-tag {
+    display: inline-block;
+    font-size: 0.8rem;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    color: #3a7ea8;
+    background-color: #e6f2f9;
+    border: 1px solid #b8d9ed;
+    border-radius: 20px;
+    padding: 0.25rem 0.75rem;
+    text-decoration: none !important;
+    transition: background-color 0.15s, color 0.15s;
+  }
+
+  .research-tag:visited {
+    color: #3a7ea8;
+  }
+
+  .research-tag:hover {
+    background-color: #cce5f5;
+    color: #2a5f82;
+    text-decoration: none !important;
+  }
+
   .google-scholar {
     font-size: 0.86rem;
     color: #777;
@@ -151,7 +182,10 @@ author_profile: true
       <p class="research-title">
         <a href="https://github.com/lydiagcamp/esop_us_map">ESOPs in the United States (2000-2024)</a>
       </p>
-      <p class="research-abstract">I compile a dataset of U.S. Employee Stock Ownership Plans (ESOPs) from Form 5500 filings, linking firm-level records to precise geographic locations. The project also develops an interactive map to visualize the spatial distribution of employee ownership, enabling new research on regional differences, firm structure, and local economic dynamics. </a>.</p>
+      <p class="research-abstract">I compile a dataset of U.S. Employee Stock Ownership Plans (ESOPs) from Form 5500 filings, linking firm-level records to precise geographic locations. The project also develops an interactive map to visualize the spatial distribution of employee ownership, enabling new research on regional differences, firm structure, and local economic dynamics.</p>
+      <div class="research-tags">
+        <a class="research-tag" href="https://lydiagcamp.github.io/esop_us_map/" target="_blank">↗ Interactive Map</a>
+      </div>
     </div>
   </section>
 
