@@ -1,12 +1,40 @@
+.page__title {
+  font-family: 'Lora', serif !important;
+  font-weight: 400 !important;
+}
+
 .page__subtitle {
   font-family: 'Lora', serif;
-  font-size: 1.2rem;
+  font-size: 1.15rem;
   font-style: italic;
   font-weight: 400;
-  color: #888;
-  margin-top: -0.4rem;
-  margin-bottom: 1.5rem;
+  color: #999;
+  margin-top: -0.5rem;
+  margin-bottom: 1.75rem;
   line-height: 1.45;
+}
+
+/* Figure captions: *Figure X. ...* rendered as <p><em>...</em></p> */
+.page__content p > em:only-child {
+  font-size: 0.82rem;
+  font-style: italic;
+  color: #aaa;
+  display: block;
+  margin-top: -0.5rem;
+  margin-bottom: 1.75rem;
+  line-height: 1.55;
+}
+
+/* Table labels: **Table X. ...** rendered as <p><strong>...</strong></p> */
+.page__content p > strong:only-child {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.72rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #bbb;
+  display: block;
+  margin-bottom: 0.4rem;
 }
 
 .theme-toggle {
