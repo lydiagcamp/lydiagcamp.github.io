@@ -2,7 +2,7 @@
 title: 'Beyond Embeddedness'
 subtitle: 'Bibliometric Evidence from Contemporary Prize-Winning Articles in Economic Sociology'
 date: 2026-05-22
-excerpt: "What gets rewarded in economic sociology, and what does that tell us about the field?"
+
 permalink: /posts/2026/05/beyond-embeddedness/
 tags:
   - research
@@ -57,21 +57,6 @@ The gender skew is also notable: 73% of prize-winning authors between 2012 and 2
 
 Looking at which scholars are cited most frequently across the corpus, Zelizer leads by a wide margin (cited in 59% of articles), followed by Fourcade, Fligstein, and Lamont. Notably, Granovetter—after whom the ASA prize is named—does not appear in the top ten.
 
-**Table 2. Most frequently cited authors**
-
-| Rank | Author | Papers citing | % of corpus |
-|------|--------|--------------|-------------|
-| 1 | Zelizer, V. | 22 | 59% |
-| 2 | Fourcade, M. | 14 | 38% |
-| 3 | Fligstein, N. | 13 | 35% |
-| 4 | Lamont, M. | 13 | 35% |
-| 5 | Espeland, W. | 12 | 32% |
-| 6 | Piketty, T. | 12 | 32% |
-| 7 | Krippner, G. | 12 | 32% |
-| 8 | Ridgeway, C. | 11 | 30% |
-| 9 | Carruthers, B. | 10 | 27% |
-| 10 | Weber, M. | 10 | 27% |
-
 ## Topics
 
 To explore the latent structure of the corpus, I used structural topic modeling (STM), which differs from standard LDA in allowing covariates—here, publication year—to influence topic prevalence. I selected K = 5 topics based on where semantic coherence peaked. The five topics are: (1) finance and governance (32%), (2) gender and evaluation (22%), (3) occupations, inequality, and social mobility (18%), (4) racial and urban inequality (15%), and (5) the moral economy of care work (13%).
@@ -115,7 +100,7 @@ Finally, the co-authorship network points to a relatively tight core. That's not
 
 ---
 
-<details>
+<details markdown="1">
 <summary><strong>Appendix: Full corpus (N = 37)</strong></summary>
 
 <br>
