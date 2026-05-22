@@ -9,19 +9,27 @@ tags:
   - research
 ---
 
-*What counts as an innovation in economic sociology?* Since its emergence in the late twentieth century, New Economic Sociology has largely defined itself in opposition to neoclassical economics—embeddedness, uncertainty, social networks. But now that the social nature of markets is broadly accepted within the field, the more interesting question is which kinds of contributions are *institutionally rewarded* today. I came to this question the obvious way: spending the past year studying department websites, sitting in on seminars, and applying to nearly twenty PhD programs in economic sociology. I wanted a clearer picture of where the field's gold standard actually sits. So I did a small bibliometric analysis of ASA and SASE prize-winning articles from 2012 to 2025.
+*What counts as an innovation in economic sociology?* Since its emergence in the late twentieth century, New Economic Sociology has largely defined itself in opposition to neoclassical economics through concepts such as embeddedness, uncertainty, and social networks. But now that the social nature of markets is broadly accepted within the field, the more interesting question becomes which kinds of intellectual contributions are institutionally rewarded today.
 
-## Three schools
+As a young scholar entering economic sociology, I wanted a clearer empirical sense of where the field's gold standard actually sits. To answer that question, I conducted a small bibliometric analysis of all ASA and SASE prize-winning articles in economic sociology from 2012 to 2025.
 
-A brief map first. Contemporary economic sociology, as I see it, divides into three rough camps. The *cultural school* centers on value, morality, legitimacy, and the cultural construction of markets—Zelizer on life insurance, Fourcade on quantification, Healy on organ donation. It tends toward the theoretical, historical, and qualitative, and its contributions are often foundational and heavily cited. The *business school* draws on the Granovetterian network tradition to ask how social ties shape organizational outcomes, and is closely aligned with management schools at places like MIT Sloan, Northwestern, and Stanford. The *political economy school*—which I think is where much of the energy among early-career scholars currently sits—is more overtly critical of capitalism, increasingly quantitative, and focused on power: who benefits from market arrangements, how financial capitalism reshapes households, how firms exercise control over workers.
+## Three Schools of Economic Sociology
 
-These are ideal types more than rigid classifications, and plenty of scholars straddle them. But they capture most of the output, and they help frame what the data shows.
+But first, a brief map. Contemporary economic sociology, as I see it, can be divided into roughly three camps: the cultural school, the business school, and the political economy school. In a somewhat Weberian sense, these three poles can be understood as ideal-typical groupings rather than rigid classifications; many of the scholars discussed here could be placed in multiple categories. However, categorization should not be discarded simply because there is ambiguity at the borders, and I believe that these groups capture the lion's share of economic sociologists' output in recent years. In terms of criteria, the schema is largely U.S.-centric and reflects differences in analytical frameworks, along with the practical division of labor embedded within the organizational structures of academic institutions.
 
-## The corpus
+The first branch is what I would call the *cultural school*, which centers around questions of value, morality, legitimacy, and the cultural construction of markets: Zelizer on life insurance, Fourcade on quantification, Healy on organ donation. This work is often theoretical, historical, qualitative, and oriented toward symbolic meaning-making more broadly. These studies tend to be foundational and highly cited, yet the time-intensive nature of the work makes it difficult for new entrants to penetrate this field.
 
-Rather than looking at citation counts, I focused on prize-winning articles for two reasons. First, prizes explicitly awarded for "economic sociology" give me a sample that both authors and selection committees understood to belong to the subdiscipline—useful given how porous its boundaries are. Second, they reflect what leading figures consider significant and innovative, rather than what simply accumulates citations from well-known names.
+The second approach to economic sociology can be defined by its close relations with business schools. Focusing on organizations, job searches, the theory of the firm, and the emergence of markets, this approach draws on the Granovetterian tradition to ask how social ties shape individual and organizational outcomes. This approach is especially visible in places with close ties between sociology departments and management schools, such as MIT Sloan, Northwestern, and Stanford. Since this work may also have utility for market actors themselves, this branch generally does not seek to challenge the capitalist order at large, despite pointing out some of its negative externalities.
 
-The sample includes 37 peer-reviewed articles: 26 from the ASA Granovetter Award (2012–2025) and 11 from the SER Best Article Award (2020–2025).
+The last branch of economic sociology is, in many ways, closely aligned with *political economy*. This body of work spans several substantive fields—primarily finance, work, inequality, gender, race, and the state—while remaining analytically unified by a focus on power and institutions. In contrast to the business school, the political economy school is more overtly critical of capitalism and its negative distributional consequences, asking: Who benefits from market arrangements? How does financial capitalism reshape households? How do firms exercise power over workers? Sociologists such as Neil Fligstein, Nathan Wilmers, and Adam Goldstein exemplify this approach. Despite the cultural school's tight grip on the field, my sense is that this final branch reflects the direction in which the discipline is partly headed, especially given that many newly hired faculty in American sociology departments seem to adopt this approach.
+
+## Prize-Winning Articles
+
+To empirically evaluate this schema, I next analyze all ASA and SASE/SER prize-winning articles in economic sociology (2012–2025). Rather than looking at citation counts, I decided to focus on prize-winning articles for two reasons. First, since economic sociology is a subdiscipline, it is difficult to systematically delineate what constitutes "economic sociology" from other types of articles within well-known sociology journals. By focusing on prizes distinctively awarded for "economic sociology," I ensure that the final sample represents papers that both the author(s) and the selection committees understood to belong to this subdiscipline. Second, while prize-winning articles are by no means representative of economic sociology's full contribution, they reflect what leading figures in the field consider significant and innovative work. This helps filter out potential noise arising from the tendency to cite well-known scholars regardless of the novelty of their contributions.
+
+The final sample comprises 37 peer-reviewed articles: 26 from the [ASA Granovetter Award](https://www.asanet.org/communities-and-sections/sections/current-sections/economic-sociology-award-recipient-history/) (2012–2025) and 11 from the [SER Best Article Award](https://sase.org/awards/ser-best-article-prize/) (2020–2025).
+
+A few things stand out from the descriptive statistics. Most articles are sole-authored, and the mean citation count sits around 88, though that figure is biased downward due to the recency of some papers' publication. Interestingly, nearly half the corpus uses qualitative methods—theory-building, historical case studies, process tracing—while only six articles (16%) use explicitly causal designs such as regression discontinuities, experiments, or instrumental variables. The field therefore remains heavily qualitative at its recognized peak. The gender skew is also notable: 73% of prize-winning authors between 2012 and 2025 were men, with no statistically significant change over the period.^[This may partly reflect lower rates of self-nomination among women rather than bias in selection.] Looking at which scholars are cited most frequently across the corpus, Zelizer leads by a wide margin (cited in 59% of articles), followed by Fourcade, Fligstein, and Lamont. Notably, Granovetter—after whom the ASA prize is named—does not appear in the top ten.
 
 **Table 1. Summary statistics**
 
@@ -52,15 +60,24 @@ The sample includes 37 peer-reviewed articles: 26 from the ASA Granovetter Award
 | Female | 15 (26.8%) |
 | Male | 41 (73.2%) |
 
-A few things stand out. Most articles are sole-authored (25 of 37). The mean citation count sits around 88, though that figure is pulled up by earlier papers in the sample. Nearly half the corpus uses qualitative methods—theory-building, historical case studies, process tracing—while only six articles (16%) use explicitly causal designs such as regression discontinuities, experiments, or instrumental variables. The field remains heavily qualitative at its recognized peak.
+**Table 2. Most frequently cited authors**
 
-The gender skew is also notable: 73% of prize-winning authors between 2012 and 2025 were men, with no statistically significant change over the period, though this may partly reflect lower rates of self-nomination among women rather than bias in selection.
+| Rank | Author | Papers citing | % of corpus |
+|------|--------|--------------|-------------|
+| 1 | Zelizer, V. | 22 | 59% |
+| 2 | Fourcade, M. | 14 | 38% |
+| 3 | Fligstein, N. | 13 | 35% |
+| 4 | Lamont, M. | 13 | 35% |
+| 5 | Espeland, W. | 12 | 32% |
+| 6 | Piketty, T. | 12 | 32% |
+| 7 | Krippner, G. | 12 | 32% |
+| 8 | Ridgeway, C. | 11 | 30% |
+| 9 | Carruthers, B. | 10 | 27% |
+| 10 | Weber, M. | 10 | 27% |
 
-Looking at which scholars are cited most frequently across the corpus, Zelizer leads by a wide margin (cited in 59% of articles), followed by Fourcade, Fligstein, and Lamont. Notably, Granovetter—after whom the ASA prize is named—does not appear in the top ten.
+## Topic Modeling
 
-## Topics
-
-To explore the latent structure of the corpus, I used structural topic modeling (STM), which differs from standard LDA in allowing covariates—here, publication year—to influence topic prevalence. I selected K = 5 topics based on where semantic coherence peaked. The five topics are: (1) finance and governance (32%), (2) gender and evaluation (22%), (3) occupations, inequality, and social mobility (18%), (4) racial and urban inequality (15%), and (5) the moral economy of care work (13%).
+To explore the latent structure of the corpus, I used structural topic modeling (STM), which differs from standard LDA in allowing covariates—here, publication year—to influence topic prevalence. I selected K = 5 topics based on where semantic coherence peaked. I label the five topics as: (1) finance and governance (32%), (2) gender and evaluation (22%), (3) occupations, inequality, and social mobility (18%), (4) racial and urban inequality (15%), and (5) the moral economy of care work (13%).
 
 ![Top 10 FREX-weighted words per topic](/images/stm_top_words_bar.png)
 *Figure 1. Top 10 FREX-weighted words per topic. FREX balances word frequency within a topic against exclusivity to that topic.*
@@ -77,27 +94,24 @@ To explore the latent structure of the corpus, I used structural topic modeling 
 
 Mapping these onto the three-school framework: finance and governance sits at the intersection of the business and political economy schools; gender and evaluation fits the cultural school's concern with symbolic classification and categorical boundaries; occupations and racial inequality fall squarely in the political economy tradition; and the moral economy of care work is the most clearly "cultural school" topic. Together, Topics 1 and 4 account for nearly half the corpus—suggesting that political economy and finance-adjacent work are more institutionally central than the cultural school's dominance in citation counts might imply.
 
-The topic trends over time are broadly insignificant (only 37 papers), but two patterns are worth flagging. Topic 5 (the moral economy of care work) shows a declining trajectory, consistent with the intuition that "cultural" work on morality and embedded exchange was more central to prize-winning work in the early 2010s than today. Topic 4 (racial and urban inequality) trends modestly upward, consistent with the growing visibility of race and place-based inequality in American sociology over the decade.
+The topic trends over time are broadly insignificant (only 37 papers), but two patterns are worth flagging. Topic 5 (the moral economy of care work) shows a declining trajectory, consistent with the intuition that "cultural" work on morality and embedded exchange was more central to prize-winning work in the early 2010s than it is today. Topic 4 (racial and urban inequality) trends modestly upward, consistent with the growing visibility of race and place-based inequality in American sociology over the decade.
 
 ![Topic trends across prize-winning articles, 2012–2025](/images/stm_topics_estimateeffect.png)
 *Figure 2. Each line shows the predicted share of a document devoted to a given topic for articles published in that year, with 95% confidence intervals.*
 
-## Co-authorship networks
+## Co-Authorship Networks
 
-As a complement to the text analysis, I pulled co-authorship data from OpenAlex for all 56 prize-winning authors and constructed a first-degree network: 2,960 nodes, 3,075 edges. The network reveals one dominant connected component and several smaller isolated clusters, suggesting the field is organized around a core insider group with a few more peripheral figures. About 18% of prize-winning authors had a prior documented co-authorship tie to a previous winner—consistent with some degree of intellectual diffusion, or, less charitably, network effects in prize selection.
+As a complement to the text analysis, I pulled co-authorship data from OpenAlex for all 56 prize-winning authors and constructed a first-degree network, spanning 2,960 nodes (scholars) and 3,075 edges (co-authorship ties). The network reveals one dominant connected component and several smaller isolated clusters, suggesting the field is organized around a core insider group with a few more peripheral figures. About 18% of prize-winning authors had a prior documented co-authorship tie to a previous winner—consistent with some degree of intellectual diffusion, or network effects in prize selection.
 
 ![Co-authorship networks among prize-winning economic sociologists](/images/coauthor_network.png)
 *Figure 3. Node size reflects degree centrality; edge width and opacity reflect the number of co-authored papers. Colors denote Louvain community membership.*
 
-## A few takeaways
+## A Few Takeaways
 
-Innovation in economic sociology is still mostly about reframing, not methods. The most celebrated work tends to introduce a new conceptual lens or demonstrate that some social process works differently than assumed—not to develop a quantitative methodological contribution. Only 16% of prize-winning articles use causal identification, and there's no sign that's changing. Whether this is a feature or a bug depends on what you think economic sociology is for.
+Overall, economic sociology still differentiates itself from economics by the prominence of qualitative methods and an emphasis on symbolic meaning-making processes, represented by the older "cultural school." An innovation in economic sociology is therefore rarely a methodological contribution in the quantitative sense, unlike in economics; rather, the discipline tends to borrow methods and instead focuses its impact on reframing how we understand social and economic reality. Topics related to finance and monetary governance remain comparatively dominant, reflecting the stronger influence of political economy and business school traditions within the field. This may ultimately be beneficial; although studies of cultural and moral framing are intellectually interesting, they are often written by and for scholars and therefore tend to have limited influence beyond academia. Gender also seems to be playing an interesting role. Although the most frequently cited economic sociologists in this sample are women, such as Zelizer and Fourcade, most contemporary prize winners are men: 73.2 percent of winners between 2012 and 2025 were male, with no statistically significant change in gender composition over the period. Although these findings are not inherently problematic and should be situated within a more thoughtful analysis, they nonetheless point to the importance of reflecting on potential biases within the discipline.
 
-The cultural school is theoretically dominant in terms of citations, but finance and governance articles make up the largest single topic in the prize corpus. The field's intellectual center of gravity and its institutional recognition may not be perfectly aligned.
-
-Finally, the co-authorship network points to a relatively tight core. That's not unusual for a subdiscipline, but it's worth keeping in mind when interpreting prize selection as a signal of what the field values.
-
-*Replication code and data available on request.*
+*Replication code and data available on request. Any suggestions or critiques are welcome!*  
+*[lydia.cp02@gmail.com](mailto:lydia.cp02@gmail.com)*
 
 ---
 
