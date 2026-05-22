@@ -4,6 +4,7 @@ subtitle: 'Bibliometric Evidence from Contemporary Prize-Winning Articles in Eco
 date: 2026-05-22
 excerpt: ""
 thumbnail: /images/coauthor_network.png
+thumbnail_zoom: 1.8
 
 permalink: /posts/2026/05/beyond-embeddedness/
 tags:
