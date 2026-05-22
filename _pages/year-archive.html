@@ -72,9 +72,6 @@ redirect_from:
             {% if post.subtitle %}
               <p class="post-subtitle">{{ post.subtitle }}</p>
             {% endif %}
-            {% if post.excerpt %}
-              <p class="post-excerpt">{{ post.excerpt | strip_html | truncate: 180 }}</p>
-            {% endif %}
           </div>
         </div>
       {% endfor %}
