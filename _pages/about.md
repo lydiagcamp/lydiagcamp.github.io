@@ -82,7 +82,7 @@ redirect_from:
     </p>
 
     <p class="home-text">
-      As an economic sociologist, I primarily study financial and labor markets in postindustrial economies. My work explores how expanding access to credit reshapes social and political life, from stock market participation to employee ownership schemes. I’m particularly interested in understanding how financial markets influences people’s sense of uncertainty and their stake—or “buy-in”—in the economy.
+      As an economic sociologist, I primarily study financial and labor markets in postindustrial economies. My work explores how expanding access to credit reshapes social and political life, from stock market participation to employee ownership schemes. I’m particularly interested in understanding how financial markets influence people’s sense of uncertainty and their stake—or “buy-in”—in the economy.
     </p>
 
     <p class="home-text">
