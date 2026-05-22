@@ -14,27 +14,54 @@
   line-height: 1.45;
 }
 
-/* Figure captions: *Figure X. ...* rendered as <p><em>...</em></p> */
-.page__content p > em:only-child {
-  font-size: 0.82rem;
-  font-style: italic;
-  color: #aaa;
-  display: block;
-  margin-top: -0.5rem;
-  margin-bottom: 1.75rem;
-  line-height: 1.55;
-}
-
-/* Table labels: **Table X. ...** rendered as <p><strong>...</strong></p> */
-.page__content p > strong:only-child {
+/* Figure and table labels */
+.figure-label,
+.table-label {
   font-family: 'DM Sans', sans-serif;
   font-size: 0.72rem;
   font-weight: 500;
   letter-spacing: 0.08em;
   text-transform: uppercase;
+  color: #999;
+  margin-top: 0.6rem;
+  margin-bottom: 0.2rem;
+}
+
+/* Figure description below label */
+.figure-desc {
+  font-size: 0.8rem;
+  font-style: italic;
   color: #bbb;
-  display: block;
-  margin-bottom: 0.4rem;
+  margin-top: 0;
+  margin-bottom: 1.75rem;
+  line-height: 1.55;
+}
+
+/* Collapsible appendix button */
+details summary {
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.85rem;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  color: #555;
+  border: 1px solid #d0d0d0;
+  border-radius: 4px;
+  padding: 0.45rem 0.9rem;
+  margin-bottom: 1.25rem;
+  user-select: none;
+  transition: background 0.15s, color 0.15s;
+}
+
+details summary:hover {
+  background: #f5f5f5;
+  color: #222;
+}
+
+details[open] summary {
+  background: #f5f5f5;
+  color: #222;
 }
 
 .theme-toggle {

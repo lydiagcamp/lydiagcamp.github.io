@@ -7,6 +7,7 @@ excerpt: ""
 permalink: /posts/2026/05/beyond-embeddedness/
 tags:
   - research
+  - econ soc
 ---
 
 *What counts as an innovation in economic sociology?* Since its emergence in the late twentieth century, New Economic Sociology has largely defined itself in opposition to neoclassical economics through concepts such as embeddedness, uncertainty, and social networks. But now that the social nature of markets is broadly accepted within the field, the more interesting question becomes which kinds of intellectual contributions are institutionally rewarded today.
@@ -29,8 +30,8 @@ To empirically evaluate this schema, I next analyze all ASA and SASE/SER prize-w
 
 The final sample comprises 37 peer-reviewed articles: 26 from the [ASA Granovetter Award](https://www.asanet.org/communities-and-sections/sections/current-sections/economic-sociology-award-recipient-history/) (2012–2025) and 11 from the [SER Best Article Award](https://sase.org/awards/ser-best-article-prize/) (2020–2025).
 
-
 **Table 1. Summary statistics**
+{: .table-label}
 
 | | |
 |---|---|
@@ -62,6 +63,7 @@ The final sample comprises 37 peer-reviewed articles: 26 from the [ASA Granovett
 A few things stand out from the descriptive statistics. Most articles are sole-authored, and the mean citation count sits around 88, though that figure is biased downward due to the recency of some papers' publication. Interestingly, nearly half the corpus uses qualitative methods—theory-building, historical case studies, process tracing—while only six articles (16%) use explicitly causal designs such as regression discontinuities, experiments, or instrumental variables. The field therefore remains heavily qualitative at its recognized peak. The gender skew is also notable: 73% of prize-winning authors between 2012 and 2025 were men, with no statistically significant change over the period.[^1] Looking at which scholars are cited most frequently across the corpus, Zelizer leads by a wide margin (cited in 59% of articles), followed by Fourcade, Fligstein, and Lamont. Notably, Granovetter—after whom the ASA prize is named—does not appear in the top ten.
 
 **Table 2. Most frequently cited authors**
+{: .table-label}
 
 | Rank | Author | Papers citing | % of corpus |
 |------|--------|--------------|-------------|
@@ -80,10 +82,16 @@ A few things stand out from the descriptive statistics. Most articles are sole-a
 
 To explore the latent structure of the corpus, I used structural topic modeling (STM), which differs from standard LDA in allowing covariates—here, publication year—to influence topic prevalence. I selected K = 5 topics based on where semantic coherence peaked. I label the five topics as: (1) finance and governance (32%), (2) gender and evaluation (22%), (3) occupations, inequality, and social mobility (18%), (4) racial and urban inequality (15%), and (5) the moral economy of care work (13%).
 
-![Top 10 FREX-weighted words per topic](/images/stm_top_words_bar.png)
-*Figure 1. Top 10 FREX-weighted words per topic. FREX balances word frequency within a topic against exclusivity to that topic.*
+<img src="/images/stm_top_words_bar.png" style="width: 78%;">
+
+**Figure 1.**
+{: .figure-label}
+
+Top 10 FREX-weighted words per topic. FREX balances word frequency within a topic against exclusivity to that topic.
+{: .figure-desc}
 
 **Table 3. Topics and examples**
+{: .table-label}
 
 | Topic | Key words | Example article | School |
 |-------|-----------|----------------|--------|
@@ -97,15 +105,25 @@ Mapping these onto the three-school framework: finance and governance sits at th
 
 The topic trends over time are broadly insignificant (only 37 papers), but two patterns are worth flagging. Topic 5 (the moral economy of care work) shows a declining trajectory, consistent with the intuition that "cultural" work on morality and embedded exchange was more central to prize-winning work in the early 2010s than it is today. Topic 4 (racial and urban inequality) trends modestly upward, consistent with the growing visibility of race and place-based inequality in American sociology over the decade.
 
-![Topic trends across prize-winning articles, 2012–2025](/images/stm_topics_estimateeffect.png)
-*Figure 2. Each line shows the predicted share of a document devoted to a given topic for articles published in that year, with 95% confidence intervals.*
+<img src="/images/stm_topics_estimateeffect.png" style="width: 78%;">
+
+**Figure 2.**
+{: .figure-label}
+
+Predicted topic share per year via estimateEffect, averaged across documents, with 95% confidence intervals.
+{: .figure-desc}
 
 ## Co-Authorship Networks
 
 As a complement to the text analysis, I pulled co-authorship data from OpenAlex for all 56 prize-winning authors and constructed a first-degree network, spanning 2,960 nodes (scholars) and 3,075 edges (co-authorship ties). The network reveals one dominant connected component and several smaller isolated clusters, suggesting the field is organized around a core insider group with a few more peripheral figures. About 18% of prize-winning authors had a prior documented co-authorship tie to a previous winner—consistent with some degree of intellectual diffusion, or network effects in prize selection.
 
 ![Co-authorship networks among prize-winning economic sociologists](/images/coauthor_network.png)
-*Figure 3. Node size reflects degree centrality; edge width and opacity reflect the number of co-authored papers. Colors denote Louvain community membership.*
+
+**Figure 3.**
+{: .figure-label}
+
+Node size reflects degree centrality; edge width and opacity reflect the number of co-authored papers. Colors denote Louvain community membership.
+{: .figure-desc}
 
 ## A Few Takeaways
 
