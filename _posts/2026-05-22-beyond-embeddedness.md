@@ -29,7 +29,6 @@ To empirically evaluate this schema, I next analyze all ASA and SASE/SER prize-w
 
 The final sample comprises 37 peer-reviewed articles: 26 from the [ASA Granovetter Award](https://www.asanet.org/communities-and-sections/sections/current-sections/economic-sociology-award-recipient-history/) (2012–2025) and 11 from the [SER Best Article Award](https://sase.org/awards/ser-best-article-prize/) (2020–2025).
 
-A few things stand out from the descriptive statistics. Most articles are sole-authored, and the mean citation count sits around 88, though that figure is biased downward due to the recency of some papers' publication. Interestingly, nearly half the corpus uses qualitative methods—theory-building, historical case studies, process tracing—while only six articles (16%) use explicitly causal designs such as regression discontinuities, experiments, or instrumental variables. The field therefore remains heavily qualitative at its recognized peak. The gender skew is also notable: 73% of prize-winning authors between 2012 and 2025 were men, with no statistically significant change over the period.[^1] Looking at which scholars are cited most frequently across the corpus, Zelizer leads by a wide margin (cited in 59% of articles), followed by Fourcade, Fligstein, and Lamont. Notably, Granovetter—after whom the ASA prize is named—does not appear in the top ten.
 
 **Table 1. Summary statistics**
 
@@ -59,6 +58,8 @@ A few things stand out from the descriptive statistics. Most articles are sole-a
 | Total authors | 56 |
 | Female | 15 (26.8%) |
 | Male | 41 (73.2%) |
+
+A few things stand out from the descriptive statistics. Most articles are sole-authored, and the mean citation count sits around 88, though that figure is biased downward due to the recency of some papers' publication. Interestingly, nearly half the corpus uses qualitative methods—theory-building, historical case studies, process tracing—while only six articles (16%) use explicitly causal designs such as regression discontinuities, experiments, or instrumental variables. The field therefore remains heavily qualitative at its recognized peak. The gender skew is also notable: 73% of prize-winning authors between 2012 and 2025 were men, with no statistically significant change over the period.[^1] Looking at which scholars are cited most frequently across the corpus, Zelizer leads by a wide margin (cited in 59% of articles), followed by Fourcade, Fligstein, and Lamont. Notably, Granovetter—after whom the ASA prize is named—does not appear in the top ten.
 
 **Table 2. Most frequently cited authors**
 
