@@ -1,5 +1,6 @@
 ---
-title: 'Beyond Embeddedness: Bibliometric Evidence from Contemporary Prize-Winning Articles in Economic Sociology'
+title: 'Beyond Embeddedness'
+subtitle: 'Bibliometric Evidence from Contemporary Prize-Winning Articles in Economic Sociology'
 date: 2026-05-22
 excerpt: "What gets rewarded in economic sociology, and what does that tell us about the field?"
 permalink: /posts/2026/05/beyond-embeddedness/
