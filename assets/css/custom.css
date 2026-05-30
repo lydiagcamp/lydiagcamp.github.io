@@ -90,19 +90,36 @@ details[open] summary {
   padding: 0.2rem 0.65rem;
 }
 
-/* Sidebar background */
-.sidebar.sticky {
+/* Sidebar card box */
+.sidebar [itemscope] {
   background-color: #faf8f8;
-  border-right: 1px solid #ede8e8;
-  padding: 1rem 0.75rem;
+  border: 1px solid #e8e0e0;
+  border-radius: 8px;
+  padding: 1.2rem 1rem;
 }
 
-/* Author avatar — larger oval */
+/* Sidebar positioning — pull left, add gap to content */
+.sidebar.sticky {
+  padding-left: 0 !important;
+  margin-left: 0 !important;
+}
+
+.page__content,
+.archive {
+  margin-left: 1.5rem;
+}
+
+/* Hide footer Follow section */
+.page__footer-follow {
+  display: none !important;
+}
+
+/* Author avatar — oval */
 .author__avatar img {
-  width: 140px;
-  height: 170px;
+  width: 130px;
+  height: 165px;
   object-fit: cover;
-  border-radius: 12px;
+  border-radius: 50%;
   display: block;
   margin: 0 auto;
 }
