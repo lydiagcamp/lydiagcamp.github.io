@@ -90,23 +90,21 @@ details[open] summary {
   padding: 0.2rem 0.65rem;
 }
 
-/* Sidebar card box */
+/* Sidebar card box — wraps only the content, not full page height */
 .sidebar [itemscope] {
   background-color: #faf8f8;
   border: 1px solid #e8e0e0;
   border-radius: 8px;
   padding: 1.2rem 1rem;
+  height: fit-content;
+  align-self: flex-start;
 }
 
-/* Sidebar positioning — pull left, add gap to content */
+/* Sidebar positioning — flush to left edge */
 .sidebar.sticky {
+  left: 0 !important;
   padding-left: 0 !important;
   margin-left: 0 !important;
-}
-
-.page__content,
-.archive {
-  margin-left: 1.5rem;
 }
 
 /* Hide footer Follow section */
@@ -114,14 +112,17 @@ details[open] summary {
   display: none !important;
 }
 
-/* Author avatar — oval */
+/* Author avatar — traditional oval */
 .author__avatar img {
-  width: 130px;
-  height: 165px;
-  object-fit: cover;
-  border-radius: 50%;
+  width: 120px !important;
+  height: 160px !important;
+  max-width: none !important;
+  object-fit: cover !important;
+  border-radius: 50% !important;
   display: block;
   margin: 0 auto;
+  padding: 0 !important;
+  border: none !important;
 }
 
 /* Nav link hover */
