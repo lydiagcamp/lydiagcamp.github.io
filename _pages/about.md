@@ -19,9 +19,9 @@ redirect_from:
 
 <style>
   .archive {
-    width: calc(100% - 308px) !important;
+    width: calc(100% - 380px) !important;
     float: none !important;
-    margin-left: 308px !important;
+    margin-left: 380px !important;
     margin-right: 0 !important;
     padding-left: 1rem !important;
     margin-top: 0 !important;

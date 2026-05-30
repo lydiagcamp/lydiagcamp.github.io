@@ -117,8 +117,8 @@ details[open] summary {
 
 /* Author avatar — traditional oval */
 .author__avatar img {
-  width: 165px !important;
-  height: 200px !important;
+  width: 148px !important;
+  height: 182px !important;
   max-width: none !important;
   object-fit: cover !important;
   border-radius: 50% !important;
@@ -131,6 +131,12 @@ details[open] summary {
 /* Breathing room between photo and name */
 .author__avatar {
   margin-bottom: 1.1rem;
+}
+
+/* Tighten nav link spacing */
+.greedy-nav .visible-links .masthead__menu-item a {
+  padding-left: 0.4rem;
+  padding-right: 0.4rem;
 }
 
 /* Nav link hover */
