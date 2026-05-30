@@ -107,10 +107,6 @@ details[open] summary {
   margin-left: 0 !important;
 }
 
-/* Research/Writing pages — flush content to left edge */
-.archive {
-  padding-left: 0 !important;
-}
 
 /* Hide footer Follow section */
 .page__footer-follow {
@@ -149,16 +145,16 @@ details[open] summary {
 
 /* Footer */
 .page__footer-text {
-  text-align: center;
+  text-align: left;
   font-family: 'DM Sans', sans-serif;
-  font-size: 0.8rem;
-  color: #999;
-  padding: 1.25rem 0;
+  font-size: 0.68rem;
+  color: #aaa;
+  padding: 1rem 0;
 }
 
 .page__footer-text a,
 .page__footer-text a:visited {
-  color: #999;
+  color: #aaa;
   text-decoration: underline;
   text-underline-offset: 2px;
 }
