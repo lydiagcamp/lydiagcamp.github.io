@@ -100,10 +100,12 @@ details[open] summary {
   align-self: flex-start;
 }
 
-/* Sidebar positioning — flush to left with small inner padding */
+/* Sidebar positioning — wider, shifted right */
 .sidebar.sticky {
-  left: 0 !important;
-  padding-left: 1rem !important;
+  left: 2rem !important;
+  width: 260px !important;
+  max-width: 260px !important;
+  padding-left: 0 !important;
   margin-left: 0 !important;
 }
 
@@ -149,7 +151,7 @@ details[open] summary {
   font-family: 'DM Sans', sans-serif;
   font-size: 0.68rem;
   color: #aaa;
-  padding: 1rem 0;
+  padding: 0.4rem 0;
 }
 
 .page__footer-text a,
