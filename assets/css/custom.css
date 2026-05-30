@@ -115,8 +115,8 @@ details[open] summary {
 
 /* Author avatar — traditional oval */
 .author__avatar img {
-  width: 145px !important;
-  height: 175px !important;
+  width: 165px !important;
+  height: 200px !important;
   max-width: none !important;
   object-fit: cover !important;
   border-radius: 50% !important;
