@@ -133,6 +133,15 @@ details[open] summary {
   margin-bottom: 1.1rem;
 }
 
+/* Left-align header and main content to match fixed sidebar coordinate system */
+.masthead__inner-wrap {
+  margin-left: 0 !important;
+}
+
+#main {
+  margin-left: 0 !important;
+}
+
 /* Tighten nav link spacing */
 .greedy-nav .visible-links .masthead__menu-item a {
   padding-left: 0.4rem;
