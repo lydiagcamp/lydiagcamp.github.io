@@ -64,10 +64,14 @@ redirect_from:
 
   .home-text a,
   .home-text a:visited {
-    color: #555;
+    color: #8b2032;
     text-decoration: underline;
     text-underline-offset: 3px;
     text-decoration-thickness: 1.1px;
+  }
+
+  .home-text a:hover {
+    color: #6e1828;
   }
 </style>
 
@@ -86,7 +90,7 @@ redirect_from:
     </p>
 
     <p class="home-text">
-      You can download my full CV <a href="/files/websiteCV.pdf">here</a>.
+      <a href="/files/websiteCV.pdf" class="cv-button">Download CV</a>
     </p>
   </div>
 </div>
