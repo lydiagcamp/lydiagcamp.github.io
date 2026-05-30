@@ -12,10 +12,10 @@ main:
     url: /files/websiteCV.pdf
 
   - title: "Research"
-    url: /publications/
+    url: /research/
 
   - title: "Other Writing"
-    url: /year-archive/
+    url: /other-writing/
 
  # - title: "Talks"
  #   url: /talks/    
