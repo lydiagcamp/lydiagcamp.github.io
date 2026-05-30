@@ -100,11 +100,16 @@ details[open] summary {
   align-self: flex-start;
 }
 
-/* Sidebar positioning — flush to left edge */
+/* Sidebar positioning — flush to left with small inner padding */
 .sidebar.sticky {
   left: 0 !important;
-  padding-left: 0 !important;
+  padding-left: 0.5rem !important;
   margin-left: 0 !important;
+}
+
+/* Research/Writing pages — flush content to left edge */
+.archive {
+  padding-left: 0 !important;
 }
 
 /* Hide footer Follow section */
@@ -122,12 +127,12 @@ details[open] summary {
   display: block;
   margin: 0 auto;
   padding: 0 !important;
-  border: none !important;
+  border: 1px solid #222 !important;
 }
 
 /* Breathing room between photo and name */
 .author__avatar {
-  margin-bottom: 0.65rem;
+  margin-bottom: 1.1rem;
 }
 
 /* Nav link hover */
@@ -140,6 +145,33 @@ details[open] summary {
 .home-text a:hover {
   color: #8b2032 !important;
   text-decoration-color: #8b2032;
+}
+
+/* Footer */
+.page__footer-text {
+  text-align: center;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.8rem;
+  color: #999;
+  padding: 1.25rem 0;
+}
+
+.page__footer-text a,
+.page__footer-text a:visited {
+  color: #999;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.page__footer-text a:hover {
+  color: #8b2032;
+}
+
+/* Active nav link */
+.greedy-nav a.active {
+  border-bottom: 2px solid #8b2032;
+  color: #8b2032 !important;
+  padding-bottom: 2px;
 }
 
 /* CV download button */
