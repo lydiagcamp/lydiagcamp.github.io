@@ -21,7 +21,7 @@ redirect_from:
   .archive {
     margin-top: 0 !important;
     padding-top: 0 !important;
-    padding-left: 0.25rem !important;
+    padding-left: 0 !important;
   }
 
   .home-archive {
