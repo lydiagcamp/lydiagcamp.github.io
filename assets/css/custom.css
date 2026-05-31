@@ -144,30 +144,25 @@ details[open] summary {
   margin-left: 0 !important;
 }
 
-/* Right-align nav links, keep site title left */
-.greedy-nav .visible-links {
-  display: flex !important;
+/* Simple nav — site title left, links right */
+.site-nav--simple .site-nav__links {
+  display: flex;
   align-items: center;
   width: 100%;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
-.greedy-nav .visible-links .masthead__menu-item--lg {
+.site-nav--simple .masthead__menu-item--lg {
   flex: 1;
 }
 
-/* Always show all nav items, never collapse to overflow menu */
-#site-nav button {
-  display: none !important;
-}
-
-.greedy-nav .hidden-links {
-  display: none !important;
-}
-
-/* Tighten nav link spacing */
-.greedy-nav .visible-links .masthead__menu-item a {
+.site-nav--simple .masthead__menu-item a {
   padding-left: 0.25rem;
   padding-right: 0.25rem;
+  text-decoration: none;
+  color: inherit;
 }
 
 /* Site title — Lora font, larger */
@@ -177,8 +172,13 @@ details[open] summary {
   font-weight: 400 !important;
 }
 
+/* Remove header bottom border */
+.masthead::after {
+  display: none !important;
+}
+
 /* Nav link hover */
-.greedy-nav a:not(.site-title):hover {
+.site-nav--simple a:hover {
   color: #8b2032 !important;
 }
 
