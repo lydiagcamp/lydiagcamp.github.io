@@ -211,9 +211,17 @@ body {
 }
 
 .page__footer {
-  position: relative !important;
-  flex-shrink: 0;
+  position: fixed !important;
+  bottom: 0 !important;
+  left: 0 !important;
+  width: 100% !important;
+  background: var(--global-bg-color, #fff) !important;
+  z-index: 5;
   margin-top: 0 !important;
+}
+
+#main {
+  padding-bottom: 2rem;
 }
 
 .page__footer-text {
