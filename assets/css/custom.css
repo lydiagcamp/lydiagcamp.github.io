@@ -189,13 +189,14 @@ details[open] summary {
   color: #888;
   letter-spacing: 0.03em;
   margin-top: 0.35rem;
-  padding-left: 1rem;
+  padding-left: 1.75rem;
 }
 
-/* Push name + pronouns down slightly */
+/* Push name + pronouns down and right */
 .masthead__menu-item--lg {
-  padding-top: 0.4rem;
+  padding-top: 0.9rem;
   padding-bottom: 0.4rem;
+  padding-left: 0.75rem;
 }
 
 /* Hide name, bio and pronouns from sidebar */
