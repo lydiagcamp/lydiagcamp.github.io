@@ -50,19 +50,19 @@ redirect_from:
   .year-label { font-family: 'Lora', serif; font-size: 1.5rem; font-weight: 400; color: #1a1a1a; }
   .year-count { font-size: 0.8rem; color: #bbb; letter-spacing: 0.05em; }
 
-  .post-item { display: grid; grid-template-columns: 72px 1fr; gap: 0 1.5rem; padding: 1.25rem 0; border-bottom: 1px solid #f0f0f0; align-items: center; }
+  .post-item { display: grid; grid-template-columns: 72px 1fr; gap: 0 1.5rem; padding: 1.5rem 0; border-bottom: 1px solid #f0f0f0; align-items: center; }
   .post-item:first-child { border-top: 1px solid #f0f0f0; }
-  .post-item.has-thumb { grid-template-columns: 72px 1fr 88px; }
-  .post-thumb-col { overflow: hidden; border-radius: 3px; width: 88px; height: 88px; flex-shrink: 0; }
-  .post-thumb-col img { width: 88px; height: 88px; object-fit: cover; display: block; transform-origin: center center; }
+  .post-item.has-thumb { grid-template-columns: 72px 1fr 115px; }
+  .post-thumb-col { overflow: hidden; border-radius: 3px; width: 115px; height: 115px; flex-shrink: 0; }
+  .post-thumb-col img { width: 115px; height: 115px; object-fit: cover; display: block; transform-origin: center center; }
   .post-date-col { display: flex; flex-direction: column; align-items: flex-end; padding-top: 2px; }
-  .post-day { font-size: 1.4rem; font-weight: 300; color: #ccc; line-height: 1; }
-  .post-mon { font-size: 0.7rem; letter-spacing: 0.08em; text-transform: uppercase; color: #ccc; margin-top: 2px; }
-  .post-title { font-family: 'Lora', serif; font-size: 1.05rem; font-weight: 400; color: #1a1a1a; margin: 0 0 0.25rem; line-height: 1.45; }
+  .post-day { font-size: 1.6rem; font-weight: 300; color: #ccc; line-height: 1; }
+  .post-mon { font-size: 0.8rem; letter-spacing: 0.08em; text-transform: uppercase; color: #ccc; margin-top: 2px; }
+  .post-title { font-family: 'Lora', serif; font-size: 1.2rem; font-weight: 400; color: #1a1a1a; margin: 0 0 0.25rem; line-height: 1.45; }
   .post-title a { color: inherit; text-decoration: none; }
   .post-title a:hover { text-decoration: underline; text-underline-offset: 3px; }
-  .post-subtitle { font-size: 0.85rem; color: #999; margin: 0 0 0.4rem; line-height: 1.45; font-style: italic; }
-  .post-excerpt { font-size: 0.875rem; color: #777; margin: 0; line-height: 1.6; font-style: italic; }
+  .post-subtitle { font-size: 0.95rem; color: #999; margin: 0 0 0.4rem; line-height: 1.45; font-style: italic; }
+  .post-excerpt { font-size: 0.95rem; color: #777; margin: 0; line-height: 1.6; font-style: italic; }
 </style>
 
 <div class="blog-archive">
@@ -70,11 +70,6 @@ redirect_from:
 
   {% for year in posts_by_year %}
     <section class="year-section">
-      <div class="year-header">
-        <span class="year-label" id="{{ year.name | slugify }}">{{ year.name }}</span>
-        <span class="year-count">{{ year.items.size }} post{% if year.items.size != 1 %}s{% endif %}</span>
-      </div>
-
       {% for post in year.items %}
         <div class="post-item{% if post.thumbnail %} has-thumb{% endif %}">
           <div class="post-date-col">
