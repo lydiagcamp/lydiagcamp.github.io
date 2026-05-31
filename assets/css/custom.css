@@ -138,6 +138,8 @@ details[open] summary {
 /* Left-align header and main content to match fixed sidebar coordinate system */
 .masthead__inner-wrap {
   margin-left: 0 !important;
+  width: 100% !important;
+  max-width: 100% !important;
 }
 
 #main {
@@ -159,22 +161,40 @@ details[open] summary {
 }
 
 .site-nav--simple .masthead__menu-item a {
-  padding-left: 0.25rem;
-  padding-right: 0.25rem;
+  padding-left: 0.65rem;
+  padding-right: 0.65rem;
   text-decoration: none;
   color: inherit;
+  white-space: nowrap;
 }
 
-/* Site title — Lora font, larger */
+/* Active page — red underline */
+.site-nav--simple a.active {
+  color: #8b2032 !important;
+  border-bottom: 2px solid #8b2032;
+  padding-bottom: 2px;
+}
+
+/* Site title — Lora font, bigger, bold */
 .masthead__menu-item--lg a {
   font-family: 'Lora', serif !important;
-  font-size: 1.3rem !important;
-  font-weight: 400 !important;
+  font-size: 1.5rem !important;
+  font-weight: 700 !important;
 }
 
-/* Remove header bottom border */
+/* Remove header bottom border completely */
 .masthead::after {
   display: none !important;
+  content: none !important;
+}
+
+.masthead {
+  border-bottom: none !important;
+  box-shadow: none !important;
+}
+
+.masthead__inner-wrap {
+  border-bottom: none !important;
 }
 
 /* Nav link hover */
