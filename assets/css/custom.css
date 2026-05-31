@@ -175,19 +175,7 @@ details[open] summary {
 
 /* Footer */
 .page__footer {
-  position: fixed !important;
-  bottom: 0 !important;
-  left: 0 !important;
-  width: 100% !important;
-  background: var(--global-bg-color, #fff) !important;
-  border-top: 1px solid #ede8e8 !important;
   margin-top: 0 !important;
-  z-index: 10;
-}
-
-/* Stop page content from hiding behind fixed footer */
-#main {
-  padding-bottom: 2.5rem;
 }
 
 .page__footer-text {
