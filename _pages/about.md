@@ -30,7 +30,7 @@ redirect_from:
   @media (min-width: 1024px) {
     .archive {
       padding-left: 3rem !important;
-      padding-right: 7rem !important;
+      padding-right: 8rem !important;
     }
   }
 
