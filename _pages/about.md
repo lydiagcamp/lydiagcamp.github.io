@@ -39,8 +39,8 @@ redirect_from:
   }
 
   .home-hero {
-    padding: 0.8rem 0 0.7rem;
-    margin: 0 0 1.2rem 0;
+    padding: 0.8rem 0 0.4rem;
+    margin: 0 0 0.6rem 0;
   }
 
   .home-hero h1 {
