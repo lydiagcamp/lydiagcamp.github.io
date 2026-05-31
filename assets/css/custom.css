@@ -202,10 +202,11 @@ details[open] summary {
   padding-left: 0.75rem;
 }
 
-/* Hide name, bio and pronouns from sidebar */
+/* Hide name, bio, pronouns and social links from sidebar */
 .author__name,
 .author__bio,
-.author__pronouns {
+.author__pronouns,
+.author__urls-wrapper {
   display: none !important;
 }
 
