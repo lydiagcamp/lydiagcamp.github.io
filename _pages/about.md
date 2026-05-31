@@ -2,7 +2,7 @@
 layout: archive
 title: "About"
 permalink: /
-author_profile: true
+author_profile: false
 redirect_from: 
   - /about/
   - /about.html
@@ -19,50 +19,39 @@ redirect_from:
 
 <style>
   .archive {
+    width: 100% !important;
+    float: none !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
     margin-top: 0 !important;
     padding-top: 0 !important;
   }
 
   @media (min-width: 1024px) {
     .archive {
-      width: calc(100% - 320px) !important;
-      float: none !important;
-      margin-left: 320px !important;
-      margin-right: 0 !important;
-      padding-left: 1rem !important;
+      padding-left: 3rem !important;
       padding-right: 10rem !important;
     }
   }
 
-  .home-archive {
+  .about-layout {
+    display: flex;
+    gap: 3rem;
+    align-items: flex-start;
     font-family: 'DM Sans', sans-serif;
   }
 
-  .home-archive section {
-    margin: 0 !important;
-    padding: 0 !important;
+  .about-photo img {
+    width: 230px;
+    height: 230px;
+    object-fit: cover;
+    object-position: center top;
+    display: block;
+    flex-shrink: 0;
   }
 
-  .home-hero {
-    padding: 0.8rem 0 0.4rem;
-    margin: 0 0 0.6rem 0;
-  }
-
-  .home-hero h1 {
-    font-family: 'Lora', serif;
-    font-size: 2.7rem;
-    font-weight: 400;
-    color: #1a1a1a;
-    margin: 0 0 0.55rem !important;
-    line-height: 1.15;
-  }
-
-  .home-item {
-    padding: 1rem 0;
-  }
-
-  .home-item:last-child {
-    border-bottom: 1px solid #f0f0f0;
+  .about-content {
+    flex: 1;
   }
 
   .home-text {
@@ -85,14 +74,18 @@ redirect_from:
   }
 </style>
 
-<div class="home-archive">
-  <div class="home-item">
+<div class="about-layout">
+  <div class="about-photo">
+    <img src="/images/profilezoom.jpeg" alt="Lydia Camp">
+  </div>
+
+  <div class="about-content">
     <p class="home-text">
       I am a Fulbright Scholar and MA Candidate at the <a href="https://ijlinz.es">Juan Linz Institute</a> (IJL) at <a href="https://www.uc3m.es/Home">Carlos III University of Madrid</a> (UC3M), and an incoming PhD student in Sociology at <a href="https://as.nyu.edu/departments/sociology.html">New York University</a>. I received a BBA in International Business.
     </p>
 
     <p class="home-text">
-      As an economic sociologist, I primarily study financial and labor markets in postindustrial economies. My work explores how expanding access to credit reshapes social and political life, from stock market participation to employee ownership schemes. I’m particularly interested in understanding how financial markets influence people’s sense of uncertainty and their stake—or “buy-in”—in the economy.
+      As an economic sociologist, I primarily study financial and labor markets in postindustrial economies. My work explores how expanding access to credit reshapes social and political life, from stock market participation to employee ownership schemes. I'm particularly interested in understanding how financial markets influence people's sense of uncertainty and their stake—or "buy-in"—in the economy.
     </p>
 
     <p class="home-text home-social-row">
