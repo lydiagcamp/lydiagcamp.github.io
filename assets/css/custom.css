@@ -170,6 +170,13 @@ details[open] summary {
   padding-right: 0.25rem;
 }
 
+/* Site title — Lora font, larger */
+.masthead__menu-item--lg a {
+  font-family: 'Lora', serif !important;
+  font-size: 1.3rem !important;
+  font-weight: 400 !important;
+}
+
 /* Nav link hover */
 .greedy-nav a:not(.site-title):hover {
   color: #8b2032 !important;
@@ -183,7 +190,29 @@ details[open] summary {
 }
 
 /* Footer */
+/* Sticky footer */
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.masthead {
+  flex-shrink: 0;
+  width: 100%;
+}
+
+.greedy-nav {
+  width: 100%;
+}
+
+#main {
+  flex: 1;
+}
+
 .page__footer {
+  position: relative !important;
+  flex-shrink: 0;
   margin-top: 0 !important;
 }
 
