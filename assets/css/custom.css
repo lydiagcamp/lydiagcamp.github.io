@@ -178,8 +178,26 @@ details[open] summary {
 /* Site title — Lora font, bigger, bold */
 .masthead__menu-item--lg a {
   font-family: 'Lora', serif !important;
-  font-size: 1.5rem !important;
+  font-size: 1.9rem !important;
   font-weight: 700 !important;
+  line-height: 1.1;
+}
+
+/* Pronouns under name in header */
+.masthead__pronouns {
+  display: block;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.7rem;
+  font-weight: 400;
+  color: #888;
+  letter-spacing: 0.03em;
+  margin-top: 0.1rem;
+}
+
+/* Hide name and bio from sidebar */
+.author__name,
+.author__bio {
+  display: none !important;
 }
 
 /* Remove header bottom border completely */
