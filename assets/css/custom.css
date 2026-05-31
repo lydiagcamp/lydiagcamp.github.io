@@ -144,10 +144,21 @@ details[open] summary {
   margin-left: 0 !important;
 }
 
+/* Right-align nav links, keep site title left */
+.greedy-nav .visible-links {
+  display: flex !important;
+  align-items: center;
+  width: 100%;
+}
+
+.greedy-nav .visible-links .masthead__menu-item--lg {
+  flex: 1;
+}
+
 /* Tighten nav link spacing */
 .greedy-nav .visible-links .masthead__menu-item a {
-  padding-left: 0.4rem;
-  padding-right: 0.4rem;
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
 }
 
 /* Nav link hover */
