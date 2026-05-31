@@ -120,7 +120,7 @@ details[open] summary {
   height: 192px !important;
   max-width: none !important;
   object-fit: cover !important;
-  border-radius: 6px !important;
+  border-radius: 0 !important;
   display: block;
   margin: 0 auto;
   padding: 0 !important;
