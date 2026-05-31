@@ -187,11 +187,12 @@ details[open] summary {
 .masthead__pronouns {
   display: block;
   font-family: 'DM Sans', sans-serif;
-  font-size: 0.7rem;
+  font-size: 0.8rem;
   font-weight: 400;
   color: #888;
   letter-spacing: 0.03em;
-  margin-top: 0.1rem;
+  margin-top: 0.25rem;
+  padding-left: 1rem;
 }
 
 /* Hide name, bio and pronouns from sidebar */
