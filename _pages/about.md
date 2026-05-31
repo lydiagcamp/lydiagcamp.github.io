@@ -42,8 +42,8 @@ redirect_from:
   }
 
   .about-photo img {
-    width: 245px;
-    height: 245px;
+    width: 260px;
+    height: 260px;
     object-fit: cover;
     object-position: center top;
     display: block;
