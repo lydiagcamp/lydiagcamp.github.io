@@ -30,7 +30,7 @@ redirect_from:
   @media (min-width: 1024px) {
     .archive {
       padding-left: 3rem !important;
-      padding-right: 10rem !important;
+      padding-right: 7rem !important;
     }
   }
 
@@ -42,8 +42,8 @@ redirect_from:
   }
 
   .about-photo img {
-    width: 230px;
-    height: 230px;
+    width: 245px;
+    height: 245px;
     object-fit: cover;
     object-position: center top;
     display: block;
