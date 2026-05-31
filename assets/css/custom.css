@@ -321,6 +321,10 @@ body {
   flex-wrap: wrap;
 }
 
+.home-social-row .cv-button {
+  margin-right: 0.6rem;
+}
+
 .social-icon-btn {
   display: inline-flex;
   align-items: center;
