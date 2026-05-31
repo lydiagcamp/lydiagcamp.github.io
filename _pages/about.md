@@ -30,7 +30,7 @@ redirect_from:
       margin-left: 320px !important;
       margin-right: 0 !important;
       padding-left: 1rem !important;
-      padding-right: 4rem !important;
+      padding-right: 10rem !important;
     }
   }
 
