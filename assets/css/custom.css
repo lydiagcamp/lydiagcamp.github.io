@@ -194,9 +194,10 @@ details[open] summary {
   margin-top: 0.1rem;
 }
 
-/* Hide name and bio from sidebar */
+/* Hide name, bio and pronouns from sidebar */
 .author__name,
-.author__bio {
+.author__bio,
+.author__pronouns {
   display: none !important;
 }
 
