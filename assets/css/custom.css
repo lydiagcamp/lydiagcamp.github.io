@@ -117,10 +117,10 @@ details[open] summary {
 /* Author avatar — traditional oval */
 .author__avatar img {
   width: 192px !important;
-  height: 237px !important;
+  height: 192px !important;
   max-width: none !important;
   object-fit: cover !important;
-  border-radius: 50% !important;
+  border-radius: 6px !important;
   display: block;
   margin: 0 auto;
   padding: 0 !important;
@@ -175,7 +175,7 @@ details[open] summary {
 /* Site title — Lora font, bigger, bold */
 .masthead__menu-item--lg a {
   font-family: 'Lora', serif !important;
-  font-size: 1.9rem !important;
+  font-size: 2.3rem !important;
   font-weight: 700 !important;
   line-height: 1.1;
 }
@@ -184,12 +184,18 @@ details[open] summary {
 .masthead__pronouns {
   display: block;
   font-family: 'DM Sans', sans-serif;
-  font-size: 0.8rem;
+  font-size: 0.95rem;
   font-weight: 400;
   color: #888;
   letter-spacing: 0.03em;
-  margin-top: 0.25rem;
+  margin-top: 0.35rem;
   padding-left: 1rem;
+}
+
+/* Push name + pronouns down slightly */
+.masthead__menu-item--lg {
+  padding-top: 0.4rem;
+  padding-bottom: 0.4rem;
 }
 
 /* Hide name, bio and pronouns from sidebar */
