@@ -106,9 +106,6 @@ details[open] summary {
     max-width: 260px !important;
     padding-left: 0 !important;
     margin-left: 0 !important;
-    display: flex !important;
-    flex-direction: column !important;
-    justify-content: center !important;
   }
 }
 
