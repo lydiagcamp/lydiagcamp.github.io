@@ -155,6 +155,15 @@ details[open] summary {
   flex: 1;
 }
 
+/* Always show all nav items, never collapse to overflow menu */
+#site-nav button {
+  display: none !important;
+}
+
+.greedy-nav .hidden-links {
+  display: none !important;
+}
+
 /* Tighten nav link spacing */
 .greedy-nav .visible-links .masthead__menu-item a {
   padding-left: 0.25rem;
