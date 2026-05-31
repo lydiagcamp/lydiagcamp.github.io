@@ -37,7 +37,7 @@ redirect_from:
   .about-layout {
     display: flex;
     gap: 3rem;
-    align-items: flex-start;
+    align-items: center;
     font-family: 'DM Sans', sans-serif;
   }
 
