@@ -100,13 +100,15 @@ details[open] summary {
   align-self: flex-start;
 }
 
-/* Sidebar positioning — wider, shifted right */
-.sidebar.sticky {
-  left: 2rem !important;
-  width: 260px !important;
-  max-width: 260px !important;
-  padding-left: 0 !important;
-  margin-left: 0 !important;
+/* Sidebar positioning — desktop only */
+@media (min-width: 1024px) {
+  .sidebar.sticky {
+    left: 2rem !important;
+    width: 260px !important;
+    max-width: 260px !important;
+    padding-left: 0 !important;
+    margin-left: 0 !important;
+  }
 }
 
 
