@@ -163,6 +163,10 @@ details[open] summary {
 }
 
 /* Footer */
+.page__footer {
+  margin-top: 1em !important;
+}
+
 .page__footer-text {
   text-align: left;
   font-family: 'DM Sans', sans-serif;
