@@ -141,6 +141,7 @@ details[open] summary {
 
 #main {
   margin-left: 0 !important;
+  max-width: 100% !important;
 }
 
 /* Simple nav — site title left, links right */
