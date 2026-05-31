@@ -35,7 +35,6 @@ redirect_from:
 
   .home-archive {
     font-family: 'DM Sans', sans-serif;
-    max-width: 980px;
   }
 
   .home-archive section {
