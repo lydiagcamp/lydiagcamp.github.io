@@ -310,6 +310,32 @@ body {
   transition: background 0.15s, color 0.15s;
 }
 
+.home-social-row {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+}
+
+.social-icon-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  color: #555 !important;
+  text-decoration: none !important;
+  font-size: 0.85rem;
+  transition: border-color 0.15s, color 0.15s;
+}
+
+.social-icon-btn:hover {
+  border-color: #8b2032;
+  color: #8b2032 !important;
+}
+
 .cv-button:hover {
   background-color: #6e1828 !important;
   border-color: #6e1828;

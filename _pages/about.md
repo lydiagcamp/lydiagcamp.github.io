@@ -95,8 +95,12 @@ redirect_from:
       As an economic sociologist, I primarily study financial and labor markets in postindustrial economies. My work explores how expanding access to credit reshapes social and political life, from stock market participation to employee ownership schemes. I’m particularly interested in understanding how financial markets influence people’s sense of uncertainty and their stake—or “buy-in”—in the economy.
     </p>
 
-    <p class="home-text">
+    <p class="home-text home-social-row">
       <a href="/files/websiteCV.pdf" class="cv-button">Download CV</a>
+      {% if site.author.email %}<a href="mailto:{{ site.author.email }}" class="social-icon-btn" aria-label="Email"><i class="fas fa-envelope"></i></a>{% endif %}
+      {% if site.author.github %}<a href="https://github.com/{{ site.author.github }}" class="social-icon-btn" aria-label="GitHub" target="_blank"><i class="fab fa-github"></i></a>{% endif %}
+      {% if site.author.linkedin %}<a href="https://linkedin.com/in/{{ site.author.linkedin }}" class="social-icon-btn" aria-label="LinkedIn" target="_blank"><i class="fab fa-linkedin"></i></a>{% endif %}
+      {% if site.author.twitter %}<a href="https://twitter.com/{{ site.author.twitter }}" class="social-icon-btn" aria-label="X" target="_blank"><i class="fab fa-x-twitter"></i></a>{% endif %}
     </p>
   </div>
 </div>
