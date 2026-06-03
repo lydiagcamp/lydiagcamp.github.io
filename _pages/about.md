@@ -89,7 +89,7 @@ redirect_from:
     </p>
 
     <p class="home-text home-social-row">
-      <a href="/files/websiteCV.pdf" class="cv-button">Download CV</a>
+      <a href="/files/cv.pdf" class="cv-button">Download CV</a>
       {% if site.author.email %}<a href="mailto:{{ site.author.email }}" class="social-icon-btn" aria-label="Email"><i class="fas fa-envelope"></i></a>{% endif %}
       {% if site.author.github %}<a href="https://github.com/{{ site.author.github }}" class="social-icon-btn" aria-label="GitHub" target="_blank"><i class="fab fa-github"></i></a>{% endif %}
       {% if site.author.linkedin %}<a href="https://linkedin.com/in/{{ site.author.linkedin }}" class="social-icon-btn" aria-label="LinkedIn" target="_blank"><i class="fab fa-linkedin"></i></a>{% endif %}
