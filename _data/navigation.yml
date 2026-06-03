@@ -12,13 +12,10 @@ main:
     url: /about.html
 
   - title: "CV"
-    url: /files/cv.pdf
+    url: /files/websiteCV.pdf
 
   - title: "Research"
     url: /publications/
-     
-  - title: "Blog Posts"
-    url: /year-archive/
 
  # - title: "Talks"
  #   url: /talks/    
