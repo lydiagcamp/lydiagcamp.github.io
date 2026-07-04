@@ -82,23 +82,12 @@ redirect_from:
     display: block;
   }
 
-  /* ── Section heading inside panel ── */
-  .rp-section-title {
-    font-family: 'Lora', serif;
-    font-size: 1.6rem;
-    font-weight: 400;
-    color: #1a1a1a;
-    margin: 0 0 1.5rem 0;
-    line-height: 1.2;
-  }
-
-  /* ── Paper item ── */
+  /* ── Paper item — only divider between items, no top border ── */
   .rp-item {
-    padding: 1.35rem 0;
-    border-bottom: 1px solid #eeeeee;
+    padding: 1.5rem 0;
   }
 
-  .rp-item:first-of-type {
+  .rp-item + .rp-item {
     border-top: 1px solid #eeeeee;
   }
 
@@ -127,15 +116,13 @@ redirect_from:
     text-decoration-color: #8b2032;
   }
 
-  /* ── Abstract block: indented with faint left rule ── */
+  /* ── Abstract — no indent, no left rule, just slightly muted ── */
   .rp-abstract,
   .rp-desc {
     font-size: 0.875rem;
     color: #666;
     line-height: 1.7;
     margin: 0;
-    padding-left: 1rem;
-    border-left: 2px solid #ebebeb;
   }
 
   /* ── Links row ── */
@@ -143,8 +130,7 @@ redirect_from:
     display: flex;
     gap: 0.5rem;
     flex-wrap: wrap;
-    margin-top: 0.75rem;
-    padding-left: 1rem;
+    margin-top: 0.65rem;
   }
 
   .rp-link {
@@ -212,8 +198,6 @@ redirect_from:
 
   <!-- Works in Progress panel -->
   <div class="rp-panel active" id="rp-wip">
-    <h2 class="rp-section-title">Works in Progress</h2>
-
     <div class="rp-item">
       <p class="rp-title">
         <a href="/files/writingsamplenov.pdf" target="_blank">Stability Pays Dividends: Financial Market Exposure &amp; Political Risk</a>
@@ -237,8 +221,6 @@ redirect_from:
 
   <!-- Datasets panel -->
   <div class="rp-panel" id="rp-data">
-    <h2 class="rp-section-title">Datasets</h2>
-
     <div class="rp-item">
       <p class="rp-title">
         <a href="https://github.com/lydiagcamp/esop_us_map" target="_blank">ESOPs in the United States (2000–2024)</a>
