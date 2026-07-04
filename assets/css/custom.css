@@ -170,6 +170,10 @@ details[open] summary {
   text-transform: lowercase;
 }
 
+.site-nav--simple .masthead__menu-item--lg a {
+  text-transform: none;
+}
+
 /* Active page — red underline */
 .site-nav--simple a.active {
   color: #8b2032 !important;
