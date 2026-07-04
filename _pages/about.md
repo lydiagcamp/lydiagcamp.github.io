@@ -93,7 +93,6 @@ redirect_from:
       {% if site.author.email %}<a href="mailto:{{ site.author.email }}" class="social-icon-btn" aria-label="Email"><i class="fas fa-envelope"></i></a>{% endif %}
       {% if site.author.github %}<a href="https://github.com/{{ site.author.github }}" class="social-icon-btn" aria-label="GitHub" target="_blank"><i class="fab fa-github"></i></a>{% endif %}
       {% if site.author.linkedin %}<a href="https://linkedin.com/in/{{ site.author.linkedin }}" class="social-icon-btn" aria-label="LinkedIn" target="_blank"><i class="fab fa-linkedin"></i></a>{% endif %}
-      {% if site.author.twitter %}<a href="https://twitter.com/{{ site.author.twitter }}" class="social-icon-btn" aria-label="X" target="_blank"><i class="fab fa-x-twitter"></i></a>{% endif %}
       <a href="https://bsky.app/profile/lydiacamp.bsky.social" class="social-icon-btn" aria-label="Bluesky" target="_blank"><svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M12 10.8c-1.087-2.114-4.046-6.053-6.798-7.995C3.447 1.247 2.035.836 1.287.98c-.95.189-1.287 1.005-1.287 1.838 0 .96.32 3.793.533 4.98.68 3.72 3.147 4.95 5.44 4.698-.04.005-.08.01-.12.016-2.44.348-4.6 1.372-1.787 4.863C6.6 19.98 9.4 21.4 12 21.4s5.4-1.42 8.067-5.025c2.813-3.491.653-4.515-1.787-4.863-.04-.006-.08-.011-.12-.016 2.293.252 4.76-.978 5.44-4.698.213-1.187.533-4.02.533-4.98 0-.833-.337-1.649-1.287-1.838-.748-.144-2.16.267-3.915 1.825C17.046 4.747 14.087 8.686 12 10.8z"/></svg></a>
     </p>
   </div>
