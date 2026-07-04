@@ -167,6 +167,7 @@ details[open] summary {
   text-decoration: none;
   color: inherit;
   white-space: nowrap;
+  text-transform: lowercase;
 }
 
 /* Active page — red underline */
