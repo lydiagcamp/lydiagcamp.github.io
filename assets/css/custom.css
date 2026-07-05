@@ -378,8 +378,8 @@ body {
     padding-left: 0 !important;
   }
 
-  .masthead__menu-item--lg a {
-    font-size: 2rem !important;
+  .site-nav--simple .masthead__menu-item--lg a {
+    font-size: 2.8rem !important;
     padding-left: 0.75rem !important;
   }
 
