@@ -365,15 +365,21 @@ body {
    ===================== */
 @media (max-width: 1023px) {
 
-  /* Header — fit everything on one line */
+  /* Header — two-line layout: name row, then nav row below */
+  .site-nav--simple .site-nav__links {
+    flex-wrap: wrap !important;
+  }
+
   .masthead__menu-item--lg {
-    padding-top: 0.4rem !important;
-    padding-bottom: 0.4rem !important;
+    width: 100% !important;
+    flex: none !important;
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.1rem !important;
     padding-left: 0 !important;
   }
 
   .masthead__menu-item--lg a {
-    font-size: 1.25rem !important;
+    font-size: 1.4rem !important;
     padding-left: 0.75rem !important;
   }
 
@@ -386,11 +392,20 @@ body {
     padding-right: 0.5rem !important;
   }
 
-  /* Shrink nav links to fit */
+  /* Nav links sit on second line */
+  .site-nav--simple .masthead__menu-item:not(.masthead__menu-item--lg) {
+    padding-bottom: 0.4rem !important;
+  }
+
   .site-nav--simple .masthead__menu-item a {
     font-size: 0.82rem !important;
     padding-left: 0.4rem !important;
     padding-right: 0.4rem !important;
+  }
+
+  /* First nav link — tighten left indent to align with name */
+  .site-nav--simple .masthead__menu-item:not(.masthead__menu-item--lg):first-of-type a {
+    padding-left: 0.75rem !important;
   }
 
   /* About page — stack photo above text, tighter gap */
@@ -407,6 +422,18 @@ body {
 
   .about-content {
     width: 100%;
+  }
+
+  /* Bigger social icon buttons on mobile */
+  .social-icon-btn {
+    width: 2.8rem !important;
+    height: 2.8rem !important;
+    font-size: 1.1rem !important;
+  }
+
+  .home-social-row {
+    gap: 0.8rem !important;
+    margin-top: 1.5rem !important;
   }
 
   /* Main content — no extra padding on mobile */
