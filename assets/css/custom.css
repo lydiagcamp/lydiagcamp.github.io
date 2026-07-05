@@ -373,7 +373,7 @@ body {
   }
 
   .masthead__menu-item--lg a {
-    font-size: 1rem !important;
+    font-size: 1.25rem !important;
     padding-left: 0.75rem !important;
   }
 
@@ -388,9 +388,9 @@ body {
 
   /* Shrink nav links to fit */
   .site-nav--simple .masthead__menu-item a {
-    font-size: 0.75rem !important;
-    padding-left: 0.3rem !important;
-    padding-right: 0.3rem !important;
+    font-size: 0.82rem !important;
+    padding-left: 0.4rem !important;
+    padding-right: 0.4rem !important;
   }
 
   /* About page — stack photo above text, tighter gap */
