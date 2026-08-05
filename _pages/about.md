@@ -81,7 +81,7 @@ redirect_from:
 
   <div class="about-content">
     <p class="home-text">
-      I am a Fulbright Scholar and MA Candidate at the <a href="https://ijlinz.es">Juan Linz Institute</a> (IJL) at <a href="https://www.uc3m.es/Home">Carlos III University of Madrid</a> (UC3M), and an incoming PhD student in Sociology at <a href="https://as.nyu.edu/departments/sociology.html">New York University</a>. I received a BBA in International Business.
+      I am a Ph.D. student in Sociology at <a href="https://as.nyu.edu/departments/sociology.html">New York University</a>. I hold an M.A. from the <a href="https://ijlinz.es">Juan Linz Institute</a> at <a href="https://www.uc3m.es/Home">the University Carlos III of Madrid</a> (UC3M), completed as a Fulbright Scholar.
     </p>
 
     <p class="home-text">
