@@ -81,7 +81,7 @@ redirect_from:
 
   <div class="about-content">
     <p class="home-text">
-      I am a Ph.D. student in Sociology at <a href="https://as.nyu.edu/departments/sociology.html">New York University</a>. I hold an M.A. from the <a href="https://ijlinz.es">Juan Linz Institute</a> at the <a href="https://www.uc3m.es/Home">University Carlos III of Madrid</a> (UC3M), completed as a Fulbright Scholar.
+      I am a Ph.D. student in Sociology at <a href="https://as.nyu.edu/sociology/people/current-phd-students/LydiaCamp.html">New York University</a>. I hold an M.A. from the <a href="https://ijlinz.es">Juan Linz Institute</a> at the <a href="https://www.uc3m.es/Home">University Carlos III of Madrid</a> (UC3M), completed as a Fulbright Scholar.
     </p>
 
     <p class="home-text">
